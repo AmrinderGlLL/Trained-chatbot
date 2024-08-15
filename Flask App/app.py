@@ -19,7 +19,6 @@ def handle_message():
     return jsonify({'response': response})
 
 
-# curl -X POST http://127.0.0.1:5000/handle_message -d '{"message":"what is coding"}' -H "Content-Type: application/json"
 
 
 if __name__ == '__main__':
